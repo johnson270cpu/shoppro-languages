@@ -6,6 +6,7 @@ Translation files for the ShopPro app. The app downloads a language file once (w
 ## Files
 - `languages.json` - list of available languages and their version numbers
 - `sw.json` - Kiswahili
+- `es.json` - Espanol
 
 ## File format
 ```json
@@ -24,6 +25,12 @@ The **key is the English text** used in the app. If a key is missing the app sho
 3. Keep `\n` line breaks.
 4. To publish a fix: edit the file, then raise `version` in BOTH the file's `_meta` and `languages.json`.
    Phones will show "Update available".
+
+## Length tips (avoid layout problems)
+- Bottom bar labels (Home, Stock, Sell, Money, Reports), tabs and chips: aim for 10 characters or fewer.
+- Buttons can wrap onto two lines, but shorter is nicer (e.g. "Copiar respaldo" instead of a very long phrase).
+- Test each language on a real phone. In a debug run on a computer the app prints
+  `[layout] ... too wide` in Godot's Output panel if any text still does not fit.
 
 ## Adding a language
 1. Copy `sw.json` to e.g. `fr.json`, translate the values, change `_meta`.

@@ -11,6 +11,12 @@
       "name": "Español",
       "version": 1,
       "file": "es.json"
+    },
+    {
+      "code": "zh",
+      "name": "中文",
+      "version": 1,
+      "file": "zh.json"
     }
   ]
 }
