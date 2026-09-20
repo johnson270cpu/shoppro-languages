@@ -5,6 +5,12 @@
       "name": "Kiswahili",
       "version": 1,
       "file": "sw.json"
+    },
+    {
+      "code": "es",
+      "name": "Español",
+      "version": 1,
+      "file": "es.json"
     }
   ]
 }
