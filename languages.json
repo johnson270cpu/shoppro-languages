@@ -1,0 +1,10 @@
+{
+  "languages": [
+    {
+      "code": "sw",
+      "name": "Kiswahili",
+      "version": 1,
+      "file": "sw.json"
+    }
+  ]
+}
